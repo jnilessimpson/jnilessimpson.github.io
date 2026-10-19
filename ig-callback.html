@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Connecting Instagram…</title>
+<style>body{font:17px -apple-system,sans-serif;max-width:560px;margin:60px auto;padding:0 16px}</style></head>
+<body><h2>Connecting Instagram…</h2><p>Sending you back to Slime World on your computer.</p>
+<script>
+// Meta only allows https:// redirect links, so it lands here first.
+// This hands the login code straight back to the Slime World app running on this same computer.
+location.replace("http://localhost:8765/instagram/callback/" + location.search);
+</script></body></html>
